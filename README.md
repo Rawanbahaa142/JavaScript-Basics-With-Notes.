@@ -31,3 +31,4 @@ Objects: Object properties, methods, and arrays of objects.
 
 
 CRUD Bank System: Functions to add, edit, delete, and display users, stored in localStorage.
+

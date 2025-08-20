@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <script src="Js/script.js"></script>
+
+
+
+    <!-- <div id="div_id" class="div-style" onmouseenter="changeDiv()" onmouseleave="changeDivLeave()">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <button onclick="changeDiv()">Change Div Style</button> -->
+    <!-- <ul>
+    <li onmouseenter="changeDiv(this)" onmouseleave="resetDiv(this)">
+        Home
+    </li>
+    <li onmouseenter="changeDiv(this)" onmouseleave="resetDiv(this)">
+        About
+    </li>
+    <li onmouseenter="changeDiv(this)" onmouseleave="resetDiv(this)">
+        Contact
+    </li>
+</ul> -->
+    <!-- 
+<form action="">
+   <input type="text" id="userName" placeholder="Enter your name">
+   <p></p>
+   <button>Submit</button>
+</form> -->
+
+    <div id="scrollDiv">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam adipisci repellat provident? Perspiciatis
+            perferendis nam sequi possimus facere soluta, suscipit voluptates voluptatum laborum itaque eaque porro
+            accusamus, odio ratione ipsa at quibusdam quos. Necessitatibus, molestiae nostrum! Esse quos officiis
+            repellat veritatis dignissimos. Praesentium in vero consequatur alias fuga odio necessitatibus ducimus eaque
+            quos? Nemo eligendi voluptate error officiis odio quae quod molestiae sequi. Voluptate quis quae culpa
+            nesciunt ratione consequatur, illum porro quod, accusantium laboriosam maiores distinctio cupiditate
+            molestiae tempore fuga officia eveniet iusto similique inventore sed nihil itaque, iste debitis voluptatum!
+            Numquam fugit consequatur rem eius! Laudantium, porro?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias aliquam architecto? Odit magni
+            numquam similique, eaque mollitia rerum explicabo. Fuga aut quae provident ex eveniet consequatur quidem,
+            ea, explicabo facilis corrupti, delectus exercitationem animi eaque dolorem commodi. Aliquid esse in ipsam
+            commodi hic exercitationem placeat laudantium natus assumenda harum, tempora veritatis incidunt asperiores!
+            Culpa quasi vel doloribus deleniti modi sit tenetur ex nulla officiis debitis quia, minus mollitia repellat
+            hic enim autem laboriosam nihil iste distinctio quae cumque atque. Fugit fugiat dolorem recusandae amet
+            exercitationem, praesentium vel architecto natus laboriosam hic dolores totam quisquam, pariatur iure
+            quibusdam libero voluptates suscipit necessitatibus! Quaerat culpa consequuntur, eaque illum qui
+            perspiciatis saepe cupiditate. Tempora quasi ex nemo provident possimus aut animi est quis debitis
+            consequatur molestias esse architecto reiciendis sunt ut culpa unde itaque blanditiis inventore, sequi
+            repudiandae dolore voluptatem harum. Minus, porro fugit! Incidunt nostrum deserunt natus vitae tempore
+            minima a.</p>
+    </div> 
+
+   <a href="https://www.google.com" id="arrow">Top Arrow </a>
+    <script>
+
+        let scrollDiv = document.getElementById('scrollDiv')
+        scrollDiv.addEventListener('scroll', function (e) {
+            console.log(e.target.scrollTop)
+            if (e.target.scrollTop > 100) {
+                scrollDiv.style.backgroundColor = 'red'
+            }
+            else {
+                scrollDiv.style.backgroundColor = 'teal'
+            }
+        })
+
+        window.addEventListener('scroll', () =>{
+            let arrowBtn=document.querySelector('#arrow')
+            if(window.scrollY>100){
+                arrowBtn.style.display='block'
+            }else{
+                arrowBtn.style.display='none'
+            }
+        })
+    </script>
+
+    <!-- <script src="Js/script.js"></script> -->
+    <!-- <script src="Js/session14.js"></script> -->
+    <!-- <script src="Js/session15.js"></script> -->
 </body>
+
 </html>
